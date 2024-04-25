@@ -5,7 +5,6 @@ import type { CartActons } from "../reducers/cart-reducer"
 type HeaderProps = {
     cart: CartItem[]
     dispatch: Dispatch<CartActons>
-    clearCart: () => void
 }
 
 export default function Header({
